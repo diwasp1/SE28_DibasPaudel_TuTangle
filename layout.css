@@ -1,0 +1,80 @@
+/* header  */
+.body-container {
+  width: 100%;
+}
+.top-header-container {
+  width: 100%;
+  background-color: #7dd8e8;
+}
+.top-header-wrapper {
+  padding: 20px 0px 16px 0px;
+}
+.logo-wrapper {
+  height: 48px;
+  width: 224px;
+  cursor: pointer;
+}
+.search-container {
+  margin-top: 18px;
+  margin-left: 22px;
+}
+.search-input-wrapper {
+  height: 20px;
+  position: relative;
+}
+
+.user-profile-container {
+  margin-top: 4px;
+}
+
+/* bottom-header    */
+.bottom-header-container {
+  background-color: #f5f5f5;
+  height: 44px;
+}
+
+/* main content  */
+
+.main-content-container {
+  margin: 30px 0px;
+}
+
+.aside-left-container {
+  width: 190px;
+}
+
+.middle-container {
+  width: 520px;
+  margin: 0px 25px;
+}
+
+.aside-right-container {
+  width: 175px;
+}
+
+.single-content-wrapper {
+  padding: 15px 0px;
+  border-bottom: 1px solid #d8d8d8;
+}
+.tabs-container {
+  border-bottom: 1px solid #2fc1da;
+}
+.tab-container {
+  background-color: #f5f5f5;
+}
+.tab-wrapper {
+  width: 247px;
+  text-align: center;
+}
+.tab-container-first {
+  margin-right: 2px;
+}
+
+/* footer  */
+
+.footer-container {
+  background-color: #727272;
+}
+.footer-wrapper {
+  padding: 20px 0px;
+}

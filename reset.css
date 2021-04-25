@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:Arial,"Times New Roman";  
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.container {
+  /* width: 960px; */
+  width: 936px;
+  margin: 0 auto;
+}
