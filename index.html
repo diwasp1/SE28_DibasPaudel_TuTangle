@@ -14,10 +14,10 @@
         <div class="top-header-container">
           <div class="container">
             <div class="top-header-wrapper clearfix">
-              <div class="logo-wrapper left">
+              <div class="logo-wrapper">
                 <img src="images/logo.png" alt="logo" />
               </div>
-              <div class="search-container left">
+              <div class="search-container">
                 <form>
                   <div class="search-input-wrapper left">
                     <div class="left">
@@ -41,31 +41,38 @@
                     </div>
                   </div>
 
-                  <div class="search-button left">
+                  <div class="search-button">
                     <a href="">
                       <div class="left search-icon1">
                         <img src="/images/searchicon1.png" alt="search icon" />
                       </div>
-                      <div class="search-text left">SEARCH</div>
-                      <div class="left search-icon2">
+                      <div class="search-text">SEARCH</div>
+                      <div class="search-icon2">
                         <img src="/images/searchicon2.png" alt="search icon" />
                       </div>
                     </a>
                   </div>
                 </form>
               </div>
-              <div class="user-profile-container right">
+              <div class="user-profile-container">
                 <div>
-                  <div class="user-name right">Joe Burros</div>
+                  <div class="user-name">Joe Burros</div>
                 </div>
 
-                <div class="profile-nav-wrapper right">
+                <div class="profile-nav-wrapper">
                   <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">Settings</a></li>
                     <li class="last"><a href="">Log Out</a></li>
                   </ul>
                 </div>
+              </div>
+              <div class="hamburger">
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
               </div>
             </div>
           </div>
@@ -74,6 +81,13 @@
         <div class="bottom-header-container">
           <div class="container">
             <div class="bottom-header-wrapper clearfix">
+              <div class="hamburger">
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
               <div class="nav-links-wrapper left">
                 <ul>
                   <li><a href="#">Create New Entry</a></li>
@@ -82,16 +96,16 @@
                   <li><a href="#">Invite New Member</a></li>
                 </ul>
               </div>
-              <div class="nav-notification-wrapper right">
+              <div class="nav-notification-wrapper">
                 <ul>
                   <li class="active">
-                    <span class="bottom-header-icon-1 left">
+                    <span class="bottom-header-icon-1">
                       <img src="/images/topic-box.png" alt="" />
                     </span>
                     Topic Boxes Invite - <span>1</span>
                   </li>
-                  <li class="last">
-                    <span class="bottom-header-icon-2 left">
+                  <li id="last">
+                    <span class="bottom-header-icon-2">
                       <img src="/images/friend-request0.png" alt="" /> </span
                     >Friend Request - <span>0</span>
                   </li>
@@ -104,14 +118,14 @@
       <div class="main-content-container">
         <div class="container">
           <div class="content-wrapper clearfix">
-            <div class="aside-left-container left">
+            <div class="aside-left-container">
               <div class="aside-content-wrapper-1">
                 <div class="aside-title">Recent Searches</div>
                 <div class="aside-list">
                   <ul>
                     <li class="clearfix">
                       <a href="#">
-                        <span class="aside-list-text left"
+                        <span class="aside-list-text"
                           >Nick Cave and the Bad Seeds</span
                         >
                         <span class="right">
@@ -121,9 +135,7 @@
                     </li>
                     <li class="clearfix">
                       <a href="#">
-                        <span class="aside-list-text left"
-                          >African Animals</span
-                        >
+                        <span class="aside-list-text">African Animals</span>
                         <span class="right">
                           <img src="/images/download.png" alt="icon" />
                         </span>
@@ -138,7 +150,7 @@
                   <ul>
                     <li class="clearfix">
                       <a href="#">
-                        <span class="aside-list-text left">
+                        <span class="aside-list-text">
                           Different versions of the Tristan Und Isolde
                           Prelude</span
                         >
@@ -149,7 +161,7 @@
                     </li>
                     <li class="clearfix">
                       <a href="#">
-                        <span class="aside-list-text left"> Music</span>
+                        <span class="aside-list-text"> Music</span>
                         <span class="right">
                           <img src="/images/hamburger.png" alt="icon" />
                         </span>
@@ -157,7 +169,7 @@
                     </li>
                     <li class="clearfix">
                       <a href="#">
-                        <span class="aside-list-text left"> Guitar</span>
+                        <span class="aside-list-text"> Guitar</span>
                         <span class="right">
                           <img src="/images/hamburger.png" alt="icon" />
                         </span>
@@ -165,7 +177,7 @@
                     </li>
                     <li class="clearfix">
                       <a href="#">
-                        <span class="aside-list-text left"> Bob Cohen</span>
+                        <span class="aside-list-text"> Bob Cohen</span>
                         <span class="right">
                           <img src="/images/hamburger.png" alt="icon" />
                         </span>
@@ -173,7 +185,7 @@
                     </li>
                     <li class="clearfix">
                       <a href="#">
-                        <span class="aside-list-text left"> Mark Schnack</span>
+                        <span class="aside-list-text"> Mark Schnack</span>
                         <span class="right">
                           <img src="/images/hamburger.png" alt="icon" />
                         </span>
@@ -181,9 +193,7 @@
                     </li>
                     <li class="clearfix">
                       <a href="#">
-                        <span class="aside-list-text left">
-                          Jefferson Dickey</span
-                        >
+                        <span class="aside-list-text"> Jefferson Dickey</span>
                         <span class="right">
                           <img src="/images/hamburger.png" alt="icon" />
                         </span>
@@ -193,116 +203,67 @@
                 </div>
               </div>
             </div>
-            <div class="middle-container left">
+            <div class="middle-container">
               <div class="title-heading">
                 <h1>Entries</h1>
               </div>
               <div class="tab-content-container">
                 <div class="tabs-container clearfix">
-                  <div class="tab-container tab-container-first left">
-                    <div class="left">
+                  <div class="tab-container-first clearfix">
+                    <div class="tab-image">
                       <img src="/images/entries-tab1.png" alt="" />
                     </div>
-                    <div class="tab-wrapper left">
+                    <div class="tab-wrapper">
                       <div class="tab-button">All Entries</div>
 
-                      <div class="tabs-list">
-                        <div class="tab tab-1 active left">
-                          <a href="">
-                            <div class="left tab-icon1">
-                              <img
-                                src="/images/tab-button1-active.png"
-                                alt="tab icon"
-                              />
-                            </div>
-                            <div class="tab-text left">All Members</div>
-                            <div class="left tab-icon2">
-                              <img
-                                src="/images/tab-button2-active.png"
-                                alt="tab icon"
-                              />
-                            </div>
-                          </a>
-                        </div>
-                        <div class="tab tab-2 right">
-                          <a href="">
-                            <div class="left tab-icon1">
-                              <img
-                                src="/images/tab-button1.png"
-                                alt="tab icon"
-                              />
-                            </div>
-                            <div class="tab-text left">Friends</div>
-                            <div class="left tab-icon2">
-                              <img
-                                src="/images/tab-button-2.png"
-                                alt="tab icon"
-                              />
-                            </div>
-                          </a>
-                        </div>
+                      <div class="tabs-list clearfix">
+                        <a href="" class="tab tab-1 active">
+                          <div class="tab-text left">All Members</div>
+                        </a>
+                        <a href="" class="tab tab-2">
+                          <div class="tab-text left">Friends</div>
+                          <!-- <div class="left tab-icon2">
+                            <img
+                              src="/images/tab-button-2.png"
+                              alt="tab icon"
+                            />
+                          </div> -->
+                        </a>
                       </div>
                     </div>
                   </div>
-                  <div class="tab-container tab-container-second left">
-                    <div class="tab-wrapper left">
+                  <div class="tab-container-second clearfix">
+                    <div class="tab-wrapper">
                       <div class="tab-button">Subscribed</div>
-                      <div class="tabs-list">
-                        <div class="tab tab-1 left">
-                          <a href="">
-                            <div class="left tab-icon1">
-                              <img
-                                src="/images/tab-button1.png"
-                                alt="tab icon"
-                              />
-                            </div>
-                            <div class="tab-text left">New Entries</div>
-                            <div class="left tab-icon2">
-                              <img
-                                src="/images/tab-button-2.png"
-                                alt="tab icon"
-                              />
-                            </div>
-                          </a>
-                        </div>
-                        <div class="tab tab-2 right">
-                          <a href="">
-                            <div class="left tab-icon1">
-                              <img
-                                src="/images/tab-button1.png"
-                                alt="tab icon"
-                              />
-                            </div>
-                            <div class="tab-text left">New Comments</div>
-                            <div class="left tab-icon2">
-                              <img
-                                src="/images/tab-button-2.png"
-                                alt="tab icon"
-                              />
-                            </div>
-                          </a>
-                        </div>
+                      <div class="tabs-list clearfix">
+                        <a href="" class="tab tab-1">
+                          <div class="tab-text left">New Entries</div>
+                        </a>
+                        <a href="" class="tab tab-2">
+                          <div class="tab-text left">New Comments</div>
+                        </a>
                       </div>
                     </div>
-                    <div class="left">
+                    <div class="tab-image">
                       <img src="/images/entries-tab2.png" alt="" />
                     </div>
                   </div>
                 </div>
                 <div class="tabs-block-container">
                   <div class="single-content-wrapper clearfix">
-                    <div class="images left">
+                    <div class="images">
                       <img src="/images/content-img-1.png" alt="" />
                     </div>
-                    <div class="single-content left">
-                      <h3>
-                        <a href="#"
-                          >Day for Night by Francois Truffaut, a ground breaking
-                          film</a
-                        >
-                      </h3>
+                    <div class="single-content">
+                      <a href="#" class="title">
+                        <h3>
+                          Day for Night by Francois Truffaut, a ground breaking
+                          film
+                        </h3></a
+                      >
+
                       <ul class="clearfix">
-                        <li>
+                        <li class="first">
                           by <span><a href="#">Alan Coe</a></span>
                         </li>
                         <li>February 10, 2012</li>
@@ -312,15 +273,18 @@
                     </div>
                   </div>
                   <div class="single-content-wrapper clearfix">
-                    <div class="images left">
+                    <div class="images">
                       <img src="/images/content-img-2.png" alt="" />
                     </div>
 
-                    <div class="single-content left">
+                    <div class="single-content">
                       <span class="alert">NEW ENTRY!</span>
-                      <h3><a>Blade Runner, The Director's Cut</a></h3>
+                      <a href="">
+                        <h3>Blade Runner, The Director's Cut</h3>
+                      </a>
+
                       <ul class="clearfix">
-                        <li>
+                        <li class="first">
                           by <span><a href="#">Mary Pilot</a></span>
                         </li>
                         <li>February 8, 2012</li>
@@ -329,17 +293,18 @@
                     </div>
                   </div>
                   <div class="single-content-wrapper clearfix">
-                    <div class="images left">
+                    <div class="images">
                       <img src="/images/content-img-3.png" alt="" />
                     </div>
 
-                    <div class="single-content left">
+                    <div class="single-content">
                       <span class="alert">NEW COMMENT!</span>
-                      <h3>
-                        <a>The Best French Restaurant in Chicago?</a>
-                      </h3>
+                      <a href="">
+                        <h3>The Best French Restaurant in Chicago?</h3>
+                      </a>
+
                       <ul class="clearfix">
-                        <li>
+                        <li class="first">
                           by <span><a>Jim Roy</a></span>
                         </li>
                         <li>February 7, 2012</li>
@@ -350,19 +315,20 @@
                     </div>
                   </div>
                   <div class="single-content-wrapper clearfix">
-                    <div class="images left">
+                    <div class="images">
                       <img src="/images/content-img-4.png" alt="" />
                     </div>
 
-                    <div class="single-content left">
-                      <h3>
-                        <a
-                          >Day for Night by Francois Truffaut, a ground breaking
-                          film</a
-                        >
-                      </h3>
+                    <div class="single-content">
+                      <a href="">
+                        <h3>
+                          Day for Night by Francois Truffaut, a ground breaking
+                          film
+                        </h3>
+                      </a>
+
                       <ul class="clearfix">
-                        <li>
+                        <li class="first">
                           by <span><a>Alan Coe</a></span>
                         </li>
                         <li>February 10, 2012</li>
@@ -372,17 +338,18 @@
                     </div>
                   </div>
                   <div class="single-content-wrapper clearfix">
-                    <div class="images left">
+                    <div class="images">
                       <img src="/images/content-img-5.png" alt="" />
                     </div>
 
-                    <div class="single-content left">
+                    <div class="single-content">
                       <span class="alert danger">TOPIC BOX INVITE!</span>
-                      <h3>
-                        <a>Pea Pesto</a>
-                      </h3>
+                      <a href="">
+                        <h3>Pea Pesto</h3>
+                      </a>
+
                       <ul class="clearfix">
-                        <li>
+                        <li class="first">
                           by <span><a>Marianne Gig</a></span>
                         </li>
                         <li>February 6, 2012</li>
@@ -417,9 +384,9 @@
       <div class="footer-container">
         <div class="container">
           <div class="footer-wrapper clearfix">
-            <div class="footer-links left">
+            <div class="footer-links">
               <ul>
-                <li><a href="#">About Us</a></li>
+                <li class="first"><a href="#">About Us</a></li>
                 <li><a href="#">Contact Us</a></li>
                 <li><a href="#">Terms of Use</a></li>
                 <li><a href="#">Privacy Policy</a></li>
@@ -427,7 +394,7 @@
               </ul>
             </div>
 
-            <div class="copyright right">&copy; Tutangle 2013</div>
+            <div class="copyright">&copy; Tutangle 2013</div>
           </div>
         </div>
       </div>
